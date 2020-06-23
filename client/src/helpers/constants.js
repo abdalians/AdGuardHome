@@ -176,6 +176,10 @@ export const SERVICES = [
         name: 'WhatsApp',
     },
     {
+        id: 'kids',
+        name: 'Kids',
+    },
+    {
         id: 'instagram',
         name: 'Instagram',
     },
