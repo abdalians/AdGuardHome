@@ -20,6 +20,7 @@ type svc struct {
 // client/src/components/ui/Icons.js
 var serviceRulesArray = []svc{
 	{"whatsapp", []string{"||whatsapp.net^", "||whatsapp.com^"}},
+	{"kids", []string{"*.*$ctag=user_child"}},
 	{"facebook", []string{
 		"||facebook.com^",
 		"||facebook.net^",
